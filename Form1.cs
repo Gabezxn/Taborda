@@ -66,7 +66,7 @@ namespace Taborda
             label6.Text = cargo;
             label7.Text = aumento.ToString();
             label8.Text = novosalario.ToString();
+            //sea
         }
     }
-    //desbuga por favor
 }
