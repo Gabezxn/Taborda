@@ -34,32 +34,32 @@ namespace Taborda
             if (codigocargo == 1)
             {
                 cargo = "Escrituário";
-                aumento = (float)(0.50 * salarioatual);
+                aumento = 0.50f * salarioatual;
             }
             else if (codigocargo == 2)
             {
                 cargo = "Secretário";
-                aumento = (float)(0.35 * salarioatual);
+                aumento = 0.35f * salarioatual;
             }
             else if (codigocargo == 3)
             {
                 cargo = "Caixa";
-                aumento = (float)(0.2 * salarioatual);
+                aumento = 0.2f * salarioatual;
             }
             else if (codigocargo == 4)
             {
                 cargo = "Gerente";
-                aumento = (float)(0.1 * salarioatual);
+                aumento = 0.1f * salarioatual;
             }
             else if (codigocargo == 5)
             {
                 cargo = "Diretor";
-                aumento = (float)(0 * salarioatual);
+                aumento = 0f * salarioatual;
             }
             else
             {
                 cargo = " ";
-                aumento = 0;
+                aumento = 0f;
             }
 
             novosalario = salarioatual + aumento;
@@ -68,4 +68,5 @@ namespace Taborda
             label8.Text = novosalario.ToString();
         }
     }
+    //desbuga por favor
 }
