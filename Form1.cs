@@ -64,8 +64,8 @@ namespace Taborda
 
             novosalario = salarioatual + aumento;
             label6.Text = cargo;
-            label7.Text = aumento.ToString();
-            label8.Text = novosalario.ToString();
+            label7.Text = aumento.ToString("F2");
+            label8.Text = novosalario.ToString("F2");
         }
     }
 }
